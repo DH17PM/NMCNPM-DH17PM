@@ -165,6 +165,14 @@ CREATE TABLE [CPUsupportRAMs]
 )
 GO
 
+CREATE TABLE [MainsupportRAMs]
+(
+	[idMain][nchar](10) NOT NULL,
+	[idRAM][nchar](10) NOT NULL,
+	CONSTRAINT [PK_Main_RAMs] PRIMARY KEY ([idMain],[idRAM])
+)
+GO
+
 /*-----------------------------------------------------------------------------------/
 	PHẦN PHỤ
 /-----------------------------------------------------------------------------------*/
